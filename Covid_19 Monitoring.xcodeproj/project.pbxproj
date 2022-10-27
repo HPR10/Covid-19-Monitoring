@@ -12,6 +12,7 @@
 		E65FD0A4290A13CD0030D0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD0A3290A13CD0030D0AF /* ViewController.swift */; };
 		E65FD0A9290A13D00030D0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65FD0A8290A13D00030D0AF /* Assets.xcassets */; };
 		E65FD0AC290A13D00030D0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65FD0AA290A13D00030D0AF /* LaunchScreen.storyboard */; };
+		E65FD0B5290A2B130030D0AF /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65FD0B4290A2B130030D0AF /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E65FD0A8290A13D00030D0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65FD0AB290A13D00030D0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E65FD0AD290A13D00030D0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65FD0B4290A2B130030D0AF /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E65FD09F290A13CD0030D0AF /* AppDelegate.swift */,
 				E65FD0A1290A13CD0030D0AF /* SceneDelegate.swift */,
+				E65FD0B4290A2B130030D0AF /* Screen.swift */,
 				E65FD0A3290A13CD0030D0AF /* ViewController.swift */,
 				E65FD0A8290A13D00030D0AF /* Assets.xcassets */,
 				E65FD0AA290A13D00030D0AF /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 				E65FD0A4290A13CD0030D0AF /* ViewController.swift in Sources */,
 				E65FD0A0290A13CD0030D0AF /* AppDelegate.swift in Sources */,
 				E65FD0A2290A13CD0030D0AF /* SceneDelegate.swift in Sources */,
+				E65FD0B5290A2B130030D0AF /* Screen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
