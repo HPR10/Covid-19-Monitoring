@@ -8,13 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "Covid Cases"
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        self.view.backgroundColor = .red
+        self.view.addSubview(self.titleLabel)
+        self.setupConstraints()
     }
-
-
+    
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            
+            self.titleLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            self.titleLabel.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
+    
+        ])
+    }
 }
 
