@@ -13,6 +13,7 @@ class Screen: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "Covid Cases"
+        label.font = UIFont.boldSystemFont(ofSize: 30)
         return label
     }()
     
@@ -29,8 +30,9 @@ class Screen: UIView {
     private func setupConstraints() {
         NSLayoutConstraint.activate([
             
-            self.titleLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            self.titleLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor)
+            self.titleLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 10),
+            self.titleLabel.widthAnchor.constraint(equalToConstant: 200),
+            self.titleLabel.heightAnchor.constraint(equalToConstant: 150),
     
         ])
     }
